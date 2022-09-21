@@ -14,6 +14,7 @@ bool hantei(int ans, int a);
 FILE* fp1(void);
 FILE* fp2(void);
 FILE* fp3(void);
+FILE* fp4(void);
 
 
 int main() {
