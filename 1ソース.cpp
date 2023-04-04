@@ -15,14 +15,14 @@
 #include<stdlib.h>
 #include<time.h>
 
-//tango型構造体宣言
+//tango型構造体
 typedef struct tango {
 	char english[20];	//英単語を格納
 	char japan[30];		//対となる日本誤訳を格納
 	int no;		//正解となる数字を格納
 };
 
-//関数宣言
+//関数
 int TangoCount(FILE* fp);
 bool hantei(int ans, int a);
 FILE* fp1(void);
@@ -30,7 +30,7 @@ FILE* fp2(void);
 FILE* fp3(void);
 FILE* decided_fp(void);
 
-//変数（グローバルで使用）
+//変数（グローバル）
 char str[25];
 tango all_a[100];	//ファイル内の全ての単語を格納
 
